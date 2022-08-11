@@ -1,0 +1,157 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Hedear logo */
+header{
+ 
+opacity: 1;
+}
+.logo img{
+    height: 105px;
+    width: 105px;
+}
+
+.big-wrapper{
+    min-height:         100vh;
+    padding:            0rem 0 0rem;
+    overflow:           hidden;
+    width:              100%;
+}
+.container{
+    background:         transparent url('Rectangle1.svg') 0% 0% no-repeat padding-box;
+    margin:             0 auto;
+    padding:            23px 0 24px 140px;
+    position:           relative;
+    width:              100%;
+    z-index:            10;
+}
+header .container{
+    display:            flex;
+    justify-content:    left;
+    align-items:        center;
+}
+.logo {
+    display:        flex;
+    align-items:    center;
+}
+.container p {
+font:               normal normal normal 29px/46px Ubuntu;
+letter-spacing:     0.87px;
+color:              #FFFFFF;
+padding:            0 0 0 141px;
+opacity:            1;
+}
+
+/*END Hedear logo */
+
+/*content */
+.showcase{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+  
+
+}
+
+
+/*Napis głowny*/
+.left .txt1{
+color:             #000000;
+font:               normal normal normal 132px/211px Grafolita Script;
+letter-spacing:     0px;
+opacity:            1;
+text-align:         center;
+}
+.left .txt2{
+    color:              #000000;
+    font:               normal normal normal 42px/68px URW Antiqua;
+    letter-spacing:     12.6px;
+    opacity:            1;
+    text-align:         center;
+ }
+ .left .txt3{
+    color:             #000000;
+    font:               normal normal normal 42px/68px URW Antiqua;
+    letter-spacing:     12.6px;
+    opacity:            1;
+    text-align:         center;
+ }
+ /*End napis glowny*/
+
+/*div z napisel glownym*/
+.content1 .left{
+  
+    background-color: rgb(255, 255, 255);
+    min-height:         30vh;
+    
+}
+/*END div z napisel glownym*/
+
+ /*div dla odliczania*/
+ .content1 .rigth{
+    
+    background-color: rgb(93, 93, 156);
+    min-height:         50vh;
+
+}
+ /*END div dla odliczania*/
+
+  /*div counter i txt*/
+.content2{
+align-items:            center;
+background-color:       rgb(255, 255, 255);
+display:                  flex;
+flex-direction:           column;
+min-height:             50vh;
+
+
+}
+.btn{
+background-color:       #2B488B;
+border-radius:            20px;
+border:                   0 ;
+height:                   75px;
+width:                    456px;
+}
+a{
+    color:                  #FFFFFF;
+    font:                     normal normal normal 30px/45px URW Antiqua;
+    letter-spacing:           9px;
+    text-decoration:          none;
+}
+.counter .counterTxt{
+color:          #2B488B;
+font:             normal normal normal 250px/337px URW Antiqua;
+letter-spacing:   5px;
+margin-top:       1%;
+
+}
+.MainTxt2 .Txt2{
+    color:              #2B488B;
+    font:               normal normal normal 35px/48px URW Antiqua;
+    letter-spacing:     10.5px;
+    
+}
+.armchairs{
+   
+    margin-top:         3%;
+    opacity:            1;
+}
+.mainTxt3{
+color:            #2B488B;
+font:               normal normal normal 48px/78px URW Antiqua;
+letter-spacing:     14.4px;
+margin-top:         3%;
+text-align:         center;
+}
+.mainArmchais{
+    width: 800px;
+}
+  /*END div counter i txt*/
+/*END content */
